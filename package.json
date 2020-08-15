@@ -1,0 +1,49 @@
+{
+  "name": "map-task",
+  "version": "1.0.0",
+  "description": "SPA для отображения меток на картах Яндекс",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "start": "webpack --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DmitryGo/map-task.git"
+  },
+  "keywords": [
+    "map"
+  ],
+  "author": "DmitryGo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DmitryGo/map-task/issues"
+  },
+  "homepage": "https://github.com/DmitryGo/map-task#readme",
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "3.0.0",
+    "css-loader": "^4.2.1",
+    "eslint": "^7.7.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
+    "webpack": "4.44.1",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
